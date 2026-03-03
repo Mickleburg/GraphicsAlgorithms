@@ -28,6 +28,7 @@ def main():
 
 def set_perspective_projection(fov_deg, aspect, near, far):
     # cоздаем матрицу перспективной проекции
+    
     f = 1.0 / math.tan(math.radians(fov_deg) / 2.0)
     
     # матрица для куба
